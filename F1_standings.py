@@ -17,3 +17,5 @@ for a in range(22):
     datab = data['StandingsTable']['StandingsLists'][0]['DriverStandings'][int(a)]['Driver']['code']
     datac = data['StandingsTable']['StandingsLists'][0]['DriverStandings'][int(a)]['points']
     print(datab,"   ",datac)
+
+print("aaa")
